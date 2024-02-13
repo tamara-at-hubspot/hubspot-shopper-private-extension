@@ -1,0 +1,19 @@
+{
+  "name": "HubSpot Shopper (Private App)",
+  "description": "UI Extension for HubSpot Shopper",
+  "uid": "hubspot_shopper_private_extension",
+  "scopes": [
+    "crm.objects.deals.read",
+    "crm.objects.deals.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/material-list-card.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Material List",
+    "uid": "material_list_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "MaterialList.tsx"
+    },
+    "objectTypes": [
+      {
+        "name": "deals"
+      }
+    ]
+  }
+}
